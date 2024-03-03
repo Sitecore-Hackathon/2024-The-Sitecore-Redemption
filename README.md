@@ -13,6 +13,7 @@
   - Module Purpose
   - Helps authors create SEO-enhanced, readable and accessible content using OpenAI.
     - The module takes the initial content, sends to OpenAI with specific parameters and instructions, and presents the responses in a dialog for the author to choose from.
+    - User is presented with a dialog of options and shows separate scores for each option, based on SEO, Readability and accessibility.
 
 ## Video link
 ⟹ Video will be posted here: https://drive.google.com/drive/folders/1MrNMv0wP3tZZzmSPYNZFHS0G7G4gbeyT?usp=sharing
@@ -26,6 +27,7 @@
 ### Configuration
 
 1. Update OpenAPI token in this item `/sitecore/system/Modules/AI Module/API Configurations/OpenAI Configuration`.  A token will be emailed to judges.
+2. Additional configuration changes can be made here:  `/sitecore/system/Modules/AI Module/Chat Settings/AI Content Optimizer`.
 
 ## Usage instructions
 
