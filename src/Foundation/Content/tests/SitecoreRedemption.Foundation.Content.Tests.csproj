@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <Authors>Neil Shack</Authors>
+    <Company>Ethisys Ltd</Company>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoFixture" />
+    <PackageReference Include="FluentAssertions" />
+    <PackageReference Include="Glass.Mapper.Sc.103.Core" />
+    <PackageReference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" />
+    <PackageReference Include="MSTest.TestAdapter" />
+    <PackageReference Include="MSTest.TestFramework" />
+    <PackageReference Include="NSubstitute" />
+    <PackageReference Include="Sitecore.Kernel" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ORM\website\SitecoreRedemption.Foundation.ORM.csproj" />
+    <ProjectReference Include="..\website\SitecoreRedemption.Foundation.Content.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+</Project>

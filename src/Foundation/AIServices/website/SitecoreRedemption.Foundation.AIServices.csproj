@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>SitecoreRedemption.Foundation.AIServices</RootNamespace>
+    <AssemblyName>SitecoreRedemption.Foundation.AIServices</AssemblyName>
+    <SitecoreRoleType>website</SitecoreRoleType>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="App_Config\Include\Foundation\SitecoreRedemption.Foundation.AIServices\SitecoreRedemption.Foundation.AIServices.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Foundation\SitecoreRedemption.Foundation.AIServices\SitecoreRedemption.Foundation.AIServices.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" />
+    <PackageReference Include="Microsoft.Extensions.Http" />
+    <PackageReference Include="Newtonsoft.Json" />
+    <PackageReference Include="Sitecore.Kernel" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SupportsSystemWeb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+</Project>

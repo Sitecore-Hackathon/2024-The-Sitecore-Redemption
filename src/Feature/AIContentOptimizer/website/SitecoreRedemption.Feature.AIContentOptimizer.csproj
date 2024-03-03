@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>SitecoreRedemption.Feature.AIContentOptimizer</RootNamespace>
+    <AssemblyName>SitecoreRedemption.Feature.AIContentOptimizer</AssemblyName>
+    <SitecoreRoleType>website</SitecoreRoleType>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="App_Config\Include\Feature\SitecoreRedemption.Feature.AIContentOptimizer\SitecoreRedemption.Feature.AIContentOptimizer.config" />
+    <None Remove="Sitecore\shell\Applications\Dialogs\OptimizeAI\OptimizeAI.xaml.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Feature\SitecoreRedemption.Feature.AIContentOptimizer\SitecoreRedemption.Feature.AIContentOptimizer.config" />
+    <Content Include="Sitecore\shell\Applications\Dialogs\OptimizeAI\OptimizeAI.xaml.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Mvc" />
+    <PackageReference Include="Sitecore.Client" />
+    <PackageReference Include="Sitecore.Kernel" />
+    <PackageReference Include="Sitecore.Mvc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SupportsSystemWeb" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\AIServices\website\SitecoreRedemption.Foundation.AIServices.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Commands\" />
+  </ItemGroup>
+</Project>

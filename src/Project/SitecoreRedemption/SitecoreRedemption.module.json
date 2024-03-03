@@ -1,0 +1,62 @@
+{
+    "namespace": "Project.SitecoreRedemption",
+    "references": [
+        "Foundation.*",
+        "Feature.*",
+        "Project.Common"
+    ],
+    "items": {
+        "includes": [
+            //{
+            //    "name": "Templates",
+            //    "path": "/sitecore/templates/Project/SitecoreRedemption",
+            //    "database": "master"
+            //},
+            //{
+            //    "name": "Renderings",
+            //    "path": "/sitecore/layout/renderings/Project/SitecoreRedemption",
+            //    "database": "master"
+            //},
+            //{
+            //    "name": "Layouts",
+            //    "path": "/sitecore/layout/layouts/Project/SitecoreRedemption",
+            //    "database": "master"
+            //},
+            //{
+            //    "name": "PlaceholderSettings",
+            //    "path": "/sitecore/layout/placeholder settings/Project/SitecoreRedemption",
+            //    "database": "master"
+            //},
+            //{
+            //    "name": "Models",
+            //    "path": "/sitecore/layout/models/Project/SitecoreRedemption",
+            //    "database": "master"
+            //},
+            //{
+            //    "name": "Content",
+            //    "path": "/sitecore/content/SitecoreRedemption",
+            //    "database": "master"
+            //},
+            //{
+            //    "name": "Media",
+            //    "path": "/sitecore/media library/Project/SitecoreRedemption",
+            //    "database": "master"
+            //},
+            //{
+            //    "name": "Profiling",
+            //    "path": "/sitecore/system/Marketing Control Panel/Profiles/SitecoreRedemption",
+            //    "database": "master"
+            //},
+            //{
+            //    "name": "Outcomes",
+            //    "path": "/sitecore/system/Marketing Control Panel/Outcomes/SitecoreRedemption",
+            //    "database": "master"
+            //},
+            //{
+            //    "name": "Campaigns",
+            //    "path": "/sitecore/system/Marketing Control Panel/Campaigns/SitecoreRedemption",
+            //    "database": "master"
+            //}
+        ]
+    }
+}

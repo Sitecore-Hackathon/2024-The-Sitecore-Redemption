@@ -1,0 +1,12 @@
+{
+    "namespace": "SitecoreRedemption.Feature.AIContentOptimizer",
+    "references": ["Foundation.*"],
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Feature/AIContentOptimizer"
+            }
+        ]
+    }
+}

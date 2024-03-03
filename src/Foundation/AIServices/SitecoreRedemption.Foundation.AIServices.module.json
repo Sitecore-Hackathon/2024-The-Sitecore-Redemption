@@ -1,0 +1,12 @@
+{
+    "namespace": "SitecoreRedemption.Foundation.AIServices",
+    "references": ["Foundation.*"],
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Foundation/AIServices"
+            }
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+<!-- https://github.com/RazorGenerator/RazorGenerator/issues/211-->
+<!--System.Web.Mvc this line only exists so that razorgenerator picks this up as an mvc project -->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+	<ApplicationIcon />
+	<OutputType>Library</OutputType>
+	<StartupObject />
+	<Authors>Neil Shack</Authors>
+	<Company>Ethisys Ltd</Company>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SupportsSystemWeb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Web.config" />
+    <Content Remove="Web.config" />
+    <Content Remove="Web.Debug.config" />
+    <Content Remove="Web.Release.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="App_Config\Include\Project\Project.SitecoreRedemption.config" />
+    <None Remove="App_Config\Include\Project\Project.SitecoreRedemption.Mvc.config" />
+    <None Remove="App_Config\Include\Project\z.Project.SitecoreRedemption.DevSettings.config" />
+    <None Remove="sitecore\login\SitecoreRedemption_Wallpaper.jpg" />
+    <None Remove="Views\Layouts\SitecoreRedemption\Default.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Project\Project.SitecoreRedemption.config" />
+    <Content Include="App_Config\Include\Project\Project.SitecoreRedemption.Mvc.config" />
+    <Content Include="App_Config\Include\Project\z.Project.SitecoreRedemption.DevSettings.config" />
+    <Content Include="sitecore\login\SitecoreRedemption_Wallpaper.jpg" />
+    <Content Include="Views\Layouts\SitecoreRedemption\Default.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Views\Web.config" />
+    <None Include="Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" />
+    <PackageReference Include="RazorGenerator.MsBuild" >
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Sitecore.Kernel" />
+    <PackageReference Include="Sitecore.Mvc" />
+    <PackageReference Include="Sitecore.Mvc.Analytics" />
+  </ItemGroup>
+</Project>
