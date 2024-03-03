@@ -15,7 +15,7 @@
     - The module takes the initial content, sends to OpenAI with specific parameters and instructions, and presents the responses in a dialog for the author to choose from.
 
 ## Video link
-⟹ \[Replace this Video link\](#video-link)
+⟹ Video will be posted here: https://drive.google.com/drive/folders/1MrNMv0wP3tZZzmSPYNZFHS0G7G4gbeyT?usp=sharing
 
 
 ## Installation instructions
@@ -37,9 +37,11 @@
     - You can update the initial AI instructions by going to this item: `/sitecore/system/Modules/AI Module/Chat Settings/AI Content Optimizer`.
     - For the purposes of this demo, please leave the instructions about the structure of the JSON instact.
 
-!\[AI Field\](docs/images/aifield.png?raw=true "AI Field")
+Field:
+![AI Field](docs/images/aifield.png?raw=true "AI Field")
+
 
 AI Window:
 
-!\[AI Window\](docs/images/aiwindow.png?raw=true "AI Window")
+![AI Window](docs/images/aiwindow.png?raw=true "AI Window")
 
