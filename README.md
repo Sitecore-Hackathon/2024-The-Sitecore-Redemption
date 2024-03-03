@@ -37,13 +37,9 @@
     - You can update the initial AI instructions by going to this item: `/sitecore/system/Modules/AI Module/Chat Settings/AI Content Optimizer`.
     - For the purposes of this demo, please leave the instructions about the structure of the JSON instact.
 
-!\[Hackathon Logo\](docs/images/hackathon.png?raw=true "Hackathon Logo")
+!\[AI Field\](docs/images/aifield.png?raw=true "AI Field")
 
-You can embed images of different formats too:
+AI Window:
 
-!\[Deal With It\](docs/images/deal-with-it.gif?raw=true "Deal With It")
-
-And you can embed external images too:
-
-!\[Random\](https://thiscatdoesnotexist.com/)
+!\[AI Window\](docs/images/aiwindow.png?raw=true "AI Window")
 
